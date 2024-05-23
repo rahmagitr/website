@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title> book info </title>
+    <!-- External CSS file -->
+    <link rel="stylesheet" href="books2.css"/>
+    <!-- External JavaScript file-->
+    <script src="wishlist.js"></script>
+    <!-- Automatic page refresh every 1 second -->
+    <meta http-equiv="refresh" content="1">
+</head>
+<body>
+    <!-- Home button -->
+    <a href="web3.html";>
+        <button class="btn" type="button"> home </button>
+    </a>
+
+    <!-- Book information section -->
+    <div class="section">
+        <!-- Book cover image -->
+        <img src="/images/harry.jpg" height="350" width="250" />
+        <!-- Book title -->
+        <h1>Harry Potter a l' ecole des sorciers</h1>
+        <!-- Author -->
+        <h5> Author | J.K. Rowling </h5>
+        <!-- Rating -->
+        <h2>⭐️ ⭐️ ⭐️ ⭐️</h2>
+        <!-- Price -->
+        <h9 id="price"> Price : 2200.00 DA</h9>
+        <!-- Description -->
+        <h6>Discription :</h6>
+            <p><br>In "Harry Potter and the Sorcerer's Stone," Harry's mundane life with his relatives takes a fantastical turn when he learns of his wizard heritage. Summoned to a magical school, Hogwarts, Harry embarks on a journey of self-discovery and uncovers secrets about his past. Guided by a lovable giant and surrounded by eccentric teachers, Harry delves into a mystical realm, embracing his noble destiny.</h6>
+        </p>
+    </div>
+
+    <!-- Additional information and buttons section -->
+    <div class="info">
+        <!-- Add to cart button -->
+        <a href="cart.html";>
+            <button class="btn3" type="button" onclick="addToCart(this)"><img src="/images/basket.png" height="50" width="50"/> Add to Card </button>
+        </a>
+        <!-- Add to wishlist button -->
+        <a>
+            <button class="btn4" type="button" onclick="addToWishlist('Book Title')"> <img src="/images/heart1.png" height="20" width="20"/>   Add to Wishlist</button>
+        </a>
+        <!-- About the book -->
+        <h5>About this book : </h5>
+        <p> Published in : June 26, 1997 <br><br> 
+            Oreginal Name : Harry Potter and the Philosopher’s Stone.<br><br>   
+            Language : French .<br><br>
+            Page :234 pages .<br><br>
+            Characters : Ron Weasley, Petunia Dursley, Vernon Dursley, Dudley Dursley, Severus Snape, Quirinus Quirrell, Rubeus Hagrid, Lord Voldemort, Minerva McGonagall, Neville Longbottom, Fred Weasley, George Weasley, Percy Weasley, Filius Flitwick, Pomona Sprout, Molly Weasley.<br><br>
+            Genres :Fantasy, Fiction, Magic, Childrens <br><br>
+        <br><br> <br><br> <br><br> <br><br> <br><br> 
+        </p>
+    </div>
+
+<!-- Back button -->
+    <div>
+        <a href="previous page.html";>
+            <button class="btn1" type="button"> back  </button>
+        </a>
+    </div>
+    <footer>
+        <div class="col">
+                <h3>About Us</h3>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="terms.html">Terms & Conditions</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Why Buy From Us</h3>
+                <ul>
+                    <li><a href="shipping.html">Shipping & Returns</a></li>
+                    <li><a href="secure.html">Secure Shopping</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                </ul>            
+                </div>
+            <div class="col">
+                <h3>My Account</h3>
+                <ul>
+                    <li><a href="">MY Account</a></li>
+                    <li><a href="">My wishlist</a></li>
+                    <li><a href="">My Cart</a></li>
+                </ul>
+            </div>
+        <img src="images/logo.png" alt="">
+        <hr>
+        <p id="copy">&lt;&copy;&gt;Copyright 2024 . All Rights Reserved</p>
+    </footer>
+</body>
+</html>

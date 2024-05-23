@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="border: 1px solid ; border-color: lightgray; border-top: none;padding: 3px;">
+    <h2 style="text-align: center;">TP N°2 : USAGE DU CSS </h2>
+    <p>Information personnelles : </p>
+    <form >
+        <label for="nom"> Nom : </label>
+        <input type="text" id="nom" placeholder="Nom" required>
+    </form>
+    <br>
+    <form action="">
+        <label for="prnm">Prenom : </label>
+        <input type="text" id="prenom" placeholder="Prenom">
+    </form>
+    <br>
+    <div class="naiss" style="display: flex; flex-wrap: wrap;" >
+        <form action="">
+            <label for="ddn">Date de naissance : </label>
+            <input type="date" id="ddn" placeholder="dd-mm-aaaa">
+        </form>
+        <br>
+        <form action="">
+            <label for="ldn" style="margin-left: 40px;">Lieu de naissance : </label>
+            <input type="text" id="ldn" placeholder="Lieu de naissance ">
+        </form>
+    </div>
+    <br>
+    <form action="">
+        <label for="addresse">Addresse : </label>
+        <input type="text" id="add" placeholder="addresse">
+    </form>
+    <br>
+    <div style="display: flex; flex-wrap: wrap;">
+        <form action="">
+            <label for="email">Email : </label>
+            <input type="email" id="email" placeholder="your_email@gmail.com">
+        </form>
+        <br>
+        <form action="">
+            <label for="tel" style="margin-left: 65px;">Telephone : </label>
+            <input type="tel" id="tel" placeholder="0784521478">
+        </form>
+    </div>
+    <div style="border:1px solid ;border-color: lightgray; margin-top: 10px;"> 
+        <p>LANGUES : </p>
+        <label for="francais"> Francais</label>
+        <input type="checkbox" id="francais">
+        <label for="ang" style="margin-left: 20px;"> Anglais </label>
+        <input type="checkbox" id="ang">
+    </div>
+    <p>Connaissances WEB :  </p>
+    <div style="border:1px solid ;border-color: lightgray; margin-top: 10px;border-top: none;" >
+        <label for="html"> HTML </label>
+        <input type="checkbox"id="html">
+        <label for="css" style="margin-left: 20px;"> CSS </label>
+        <input type="checkbox"id="css">
+        <label for="xml" style="margin-left: 20px;"> XTML </label>
+        <input type="checkbox"id="xtml">
+        <label for="vbscript" style="margin-left: 20px;"> VBSCRIPT </label>
+        <input type="checkbox"id="vbscript">
+        <label for="js" style="margin-left: 20px;"> JAVA SCRIPT </label>
+        <input type="checkbox"id="js">
+        <label for="java" style="margin-left: 20px;"> JAVA </label>
+        <input type="checkbox"id="java">
+    </div>
+    <div style="border: 0.5px solid; border-color: lightgray; margin-top: 10px;">
+        <p>Semestre Acquis : </p>
+        <label for="oui"> OUI </label>
+        <input type="checkbox" id="oui">
+        <label for="non" style="margin-left: 30px;"> NON </label>
+        <input type="checkbox" id="non">
+    </div>
+    <button style="margin-top: 10px;">SUBMIT</button>
+
+    
+</body>
+</html>
